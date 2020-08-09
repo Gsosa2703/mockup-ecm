@@ -12,7 +12,7 @@
 </head>
 
 <body>
-    <header>
+    <header class="sticky-top">
         <div class="search padding-mockup">
             <h1 class="search-title">FOOSESHOES</h1>
             <a href="" class="searcher"><img class="searcher-img " src="assets/searcher.png" alt=""></a>
@@ -20,21 +20,27 @@
 
         </div>
 
-        <nav class="nav padding-mockup">
-            <a class="nav-link active" href="#">Home</a>
-            <a class="nav-link" href="#">Products</a>
-            <a class="nav-link" href="#">About</a>
-            <a class="nav-link" href="#">Pages</a>
-            <a class="nav-link" href="#">Blog</a>
-            <a class="nav-link border-right" href="#">Contact</a>
-            <a class="nav-link border-right button-right" href="#">✰ <div class="square-sm be-gray"> 30</div></a>
-            <a class="nav-link border-right button-right justify-content-end" href="#">🛒 <div
-                    class="square-sm be-green">0</div></a>
+        <nav class="nav padding-mockup d-flex justify-content-between">
+            <div class="d-flex">
+                <a class="nav-link active" href="#">Home</a>
+                <a class="nav-link" href="#">Products</a>
+                <a class="nav-link" href="#">About</a>
+                <a class="nav-link" href="#">Pages</a>
+                <a class="nav-link" href="#">Blog</a>
+                <a class="nav-link border-right" href="#">Contact</a>
+            </div>
+
+            <div class="d-flex">
+                <a class="nav-link border-right button-right" href="#">✰ <div class="square-sm be-gray"> 30</div></a>
+                <a class="nav-link border-right button-right justify-content-end" href="#">🛒 <div
+                        class="square-sm be-green">0</div></a>
+            </div>
+
         </nav>
     </header>
 
 
-    <div class="container-fluid container-carousel">
+    <section class="container-fluid container-carousel">
         <div id="carouselExampleIndicators" class="carousel slide row" data-ride="carousel">
             <div class="carousel-inner col-12">
                 <div class="carousel-item active">
@@ -101,25 +107,101 @@
                 </ol>
             </div>
         </div>
-    </div>
+    </section>
 
-    <div class="container-onsales">
+    <section class="container-onsales">
         <div class="row padding-mockup">
             <div class="col d-flex justify-content-between">
                 <div class="item-onsales"><img src="assets/pink-shoes.jpg" class="img-onsales" alt="">
-                    <p class="text-onsale"> ON SALE </p>
+                    <p class="text-onsale pt-2"> ON SALE </p>
                 </div>
                 <div><img src="assets/mellow-yellow.jpeg" class="img-onsales" alt="">
-                    <p class="text-onsale">SPECIAL OFFERS</p>
+                    <p class="text-onsale pt-2">SPECIAL OFFERS</p>
                 </div>
                 <div><img src="assets/anna-field.jpeg" class="img-onsales" alt="">
-                    <p class="text-onsale">MUST HAVE</p>
+                    <p class="text-onsale pt-2">MUST HAVE</p>
                 </div>
 
             </div>
 
         </div>
-    </div>
+    </section>
+
+    <section class="container-products padding-mockup">
+        <div class="d-flex justify-content-between pb-4">
+            <h3 class="title-carousel"> New Arrivals on FooShoes</h3>
+            <button class="button-products mt-2"> Show All</button>
+        </div>
+
+        <div class="products row">
+            <div class="item-product col">
+                <div class="square-medium be-dark-gray p-1 p-absolute">ON SALE!</div>
+                <img src="assets/product1.jpg" class="img-product" alt="">
+                <div class="d-flex item-product-content">
+                    <div class="square-medium be-green pt-3 ml-2 p-relative">$145,99</div>
+                    <p class="pl-3">Event&Odd</p>
+                </div>
+
+            </div>
+            <div class="item-product col">
+                <img src="assets/product2.jpg" class="img-product" alt="">
+                <div class="d-flex item-product-content">
+                    <div class="square-medium be-green pt-3 ml-2 p-relative">$145,99</div>
+                    <p class="pl-3">Event&Odd</p>
+                </div>
+
+            </div>
+            <div class="item-product col">
+                <img src="assets/product3.jpg" class="img-product" alt="">
+                <div class="d-flex item-product-content">
+                    <div class="square-medium be-green pt-3 ml-2 p-relative">$145,99</div>
+                    <p class="pl-3">Event&Odd</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="container-products padding-mockup">
+        <div class="d-flex justify-content-between pb-4">
+            <h3 class="title-carousel"> Best Sellers of the month</h3>
+            <button class="button-products mt-2"> Show All</button>
+        </div>
+
+        <div class="products row">
+            <div class="item-product col">
+                <img src="assets/product1.jpg" class="img-product" alt="">
+                <div class="d-flex item-product-content">
+                    <div class="square-medium be-green pt-3 ml-2 p-relative">$145,99</div>
+                    <p class="pl-3">Event&Odd</p>
+                </div>
+
+            </div>
+            <div class="item-product col">
+                <div class="square-medium be-orange  p-absolute">OUT OF STOCK</div>
+                <img src="assets/product2.jpg" class="img-product" alt="">
+                <div class="d-flex item-product-content">
+                    <div class="square-medium be-green pt-3 ml-2 p-relative">$145,99</div>
+                    <p class="pl-3">Event&Odd</p>
+                </div>
+
+            </div>
+            <div class="item-product col">
+                <img src="assets/product3.jpg" class="img-product" alt="">
+                <div class="d-flex item-product-content">
+                    <div class="square-medium be-green pt-3 ml-2 p-relative">$145,99</div>
+                    <p class="pl-3">Event&Odd</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
 
 
 
