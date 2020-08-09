@@ -234,8 +234,8 @@ header {
 }
 
 .item-product{
-    width: 200px;
-    
+    width: 260px;
+    height: 200px;    
 }
 
 .item-product img {
@@ -264,4 +264,13 @@ header {
         position: absolute;
         left: 65%;
     
+}
+
+footer{
+    background-color: var(--color-dark-gray);
+    color:white;
+}
+
+footer a {
+    color: #53dab8 ;
 }
