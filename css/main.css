@@ -166,3 +166,36 @@ padding: 0px;
 .parrafo-carousel{
     font-size: 20px;
 }
+
+.button-carousel{
+    border: solid 1px #cdcdcd ;
+  background-color: white;
+}
+
+
+/* CONTAINER ONSALES */
+
+.container-onsales{
+    border-top: solid 1px var(--color-gray);
+    background-color: var(--color-dark-gray);
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.img-onsales{
+    width: 260px;
+    height: 160px;
+}
+
+.text-onsale{
+    position: absolute;
+    z-index: 100;
+    top: 35%;
+    background-color: var(--color-dark-gray);
+    opacity: 0.7;
+    width: 120px;
+    height: 40px;
+    color:white;
+    text-align: center;
+    padding-top: 1%;
+}
