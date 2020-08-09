@@ -75,7 +75,7 @@ header {
 }
 
 .nav {
-    height: 55px;
+    height: 100%;
 }
 
 .nav a {
@@ -196,6 +196,7 @@ header {
 /* CONTAINER ONSALES */
 
 .container-onsales {
+    width: 100%;
     border-top: solid 1px var(--color-gray);
     background-color: var(--color-dark-gray);
     padding-top: 2%;
@@ -225,7 +226,7 @@ header {
     padding-top: 3%;
     padding-bottom: 3%;
     background-color: var(--color-light-pink);
-    height: 400px;
+    height: 100%;
 }
 
 .button-products {
@@ -318,6 +319,20 @@ footer p {
     .parrafo-carousel{
         display: none;
     }
+
+    /*ON SALES */
+
+    .img-onsales{
+        width: 250px;
+        height: 150px;
+    }
+
+    .item-onsales{
+        padding: 0px;
+        margin: 5px 40px 5px 60px;
+    }
+
+
 
 }
 
