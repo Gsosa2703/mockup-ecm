@@ -262,7 +262,8 @@ header {
 
 .p-absolute {
         position: absolute;
-        left: 65%;
+        left: 200px;
+        bottom:140px;
     
 }
 
@@ -273,4 +274,8 @@ footer{
 
 footer a {
     color: #53dab8 ;
+}
+
+footer p {
+    text-align: end;
 }
