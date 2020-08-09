@@ -283,7 +283,10 @@ footer p {
     text-align: end;
 }
 
+/* RESPONSIVE */
 @media (max-width: 575.98px) { 
+
+    /*Nav Header */
     .search-title{
         font-size: 20px;
         padding-top: 10px;
@@ -298,10 +301,29 @@ footer p {
         
     }
 
+    /*Carousel*/
+
+    .title-indicator{
+        display: none;
+    }
+    .carousel-indicators {
+        height: 40px;
+    }
+
+    .carousel-item-content{
+        left: 1%;
+        width: 300px;
+    }
+
+    .parrafo-carousel{
+        display: none;
+    }
+
 }
 
 
 /*NAV VAR RESPONSIVE */
+
 
   .header ul {
     margin: 0;
@@ -330,7 +352,7 @@ footer p {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 36px;
     letter-spacing: -1.62px;
-    color: #ffffff;
+    color: var(--color-dark-gray);
   
   }
   
@@ -346,15 +368,14 @@ footer p {
   
   .header .menu-icon {
     cursor: pointer;
-    display: inline-block;
-    float: right;
+    color: var(--color-dark-gray);
     padding: 28px 20px;
     position: relative;
     user-select: none;
   }
   
   .header .menu-icon .navicon {
-    background: #ffffff;
+    background: var(--color-dark-gray);
     display: block;
     height: 2px;
     position: relative;
@@ -364,7 +385,7 @@ footer p {
   
   .header .menu-icon .navicon:before,
   .header .menu-icon .navicon:after {
-    background: #ffffff;
+    background: var(--color-dark-gray);
     content: '';
     display: block;
     height: 100%;
