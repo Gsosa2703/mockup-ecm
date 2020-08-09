@@ -1,9 +1,14 @@
+
 :root{
     --color-gray : #8a8585;
     --color-dark-gray: #272525;
     --color-light-gray : #d3cfcf;
 
     
+}
+
+body{
+    margin:0px
 }
 
 .be-green{
@@ -87,4 +92,77 @@ header {
     font-weight: bold;
     padding: 1px 1px;
     font-size: 15px;
+}
+
+
+
+.carousel-img{
+    height: 450px;
+}
+
+.container-carousel{
+padding: 0px;
+}
+
+.carousel-indicators{
+    height: 70px;
+    position: inherit;
+    margin: 0px;
+    background-color: #302f2f;
+    padding-bottom: 7%;
+    
+
+}
+.carousel-indicators .active {
+    opacity: 1;
+    background-color: #58f0ca ;
+}
+
+.carousel-indicators li{
+    width: 170px;
+    height: 8px;
+    background-color: black ;
+    text-indent: inherit;
+    color: #ffff;
+    margin: 0px;
+    opacity: 0.7;
+}
+
+.title-indicator{
+    font-size: 18px;
+    text-align: center;
+}
+
+.price-indicator{
+    font-size: 12px;
+    font-weight: normal;
+}
+
+.carousel-item-content{
+    width: 400px;
+    position: absolute;
+    z-index: 100;
+    top:10%;
+    left: 50%;
+    background-color:#f5eded;
+    opacity: 0.7;
+}
+
+.square-medium{
+    padding: 10px;
+    text-align: center;
+    height: 60px;
+    width: 60px;
+    color: white;
+    font-weight: bold;
+    padding: 1px 1px;
+    font-size: 15px;
+
+}
+
+.title-carousel{
+    font-weight: lighter;
+}
+.parrafo-carousel{
+    font-size: 20px;
 }
